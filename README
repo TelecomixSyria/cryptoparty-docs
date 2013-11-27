@@ -1,0 +1,11 @@
+This repository is aimed at containing documents that can help in
+events such as cryptoparties. For instance:
+- memos with where to download appropriate software and how to use
+  some core functionalities (e.g. fingerprint checking);
+- slides meant at explaining things in a simple way for beginners.
+
+Later on, this repo will have a structure that will ease translation
+of the content into as many languages as possible.
+
+It is deliberate that some documents show URLs in a non-link format,
+because we want them to be displayed when printed from a PDF.
