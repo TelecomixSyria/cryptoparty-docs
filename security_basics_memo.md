@@ -55,7 +55,10 @@ Do not try to look for a fingerprint if a website uses HTTP instead of HTTPS: th
 ### With PGP
 Similarly to websites, only your contacts who use PGP will have a PGP fingerprint that you can check.
 
-In **Thunderbird** with **Enigmail**, TODO.
+In **Thunderbird** with **Enigmail**:
+
+1. Click on the OpenPGP menu
+2. Click on the "Key management" item
 
 ### With OTR
 As for PGP, do not try to look for an OTR fingerprint for a buddy who does not use OTR: it does not exist.
