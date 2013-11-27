@@ -10,7 +10,7 @@ can produce both. As much as possible, pictures should also use a git-
 friendly format such as SVG.
 
 The repo tries to have a structure that eases translation of the
-content into any number of languages. It is probably a very non-
+content into any number of languages. It is probably a very sub-
 optimal structure, but here is how it is organized:
 
 - the content-parts/ directory contains directories of language code
