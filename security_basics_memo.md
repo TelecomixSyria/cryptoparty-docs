@@ -67,7 +67,7 @@ As for PGP, do not try to look for an OTR fingerprint for a buddy who does not u
         5. Select "manual verification" to display the buddy's fingerprint
     * if your buddy if offline:
         1. Select menu Tools/Plugins from the main window (contact list)
-        2. Click on "Off-the-Record messaging" in the list (do not untick it)
+        2. Click on "Off-the-Record messaging" in the list without untick it
         3. Click on "Configure plugin"
         4. Go to the "Known fingerprints" tab
         5. All the fingerprints ever received by Pidgin during OTR chats are shown in the list
