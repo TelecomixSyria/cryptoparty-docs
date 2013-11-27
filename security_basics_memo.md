@@ -1,4 +1,4 @@
-# Memo for basic computer security
+# Memo for basic communication security
 
 ## Where to get the tools?
 
