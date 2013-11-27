@@ -32,7 +32,7 @@ Pretty Good Privacy (PGP) is a protocol that provides end-to-end encryption and 
     3. Enigmail plugin: `https://www.enigmail.net/download/`
 
 ## How to check fingerprints?
-Checking fingerprints is often the only way to ensure that an encrypted connection is encrypted all the way between you and your peer, rather than decrypted in the middle by an attacker. A fingerprint is a sequence of hexadecimal characters, sometimes including spaces or colons for reading convenience, such as:
+Checking fingerprints is often the only way to ensure that an encrypted connection is effectively encrypted all the way between you and your peer, rather than decrypted in the middle by an attacker. A fingerprint is a sequence of hexadecimal characters, sometimes including spaces or colons for reading convenience, such as:
 
 - `80:F0:A9:C7:27:34:24:0A:BE:9C:38:7F:CA:08:AF:B3:36:E5:0E:AD` (a website's TLS/SSL certificate fingerprint in Firefox)
 - `6EBA5236 07DBF97A 8F53D878 85C1EFD0 33F7B89C` (a buddy's OTR fingerprint in Pidgin)
