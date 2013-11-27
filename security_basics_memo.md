@@ -39,7 +39,7 @@ Checking fingerprints is often the only way to ensure that an encrypted connecti
 - `80:F0:A9:C7:27:34:24:0A:BE:9C:38:7F:CA:08:AF:B3:36:E5:0E:AD` (a website's TLS/SSL certificate fingerprint in Firefox)
 - `6EBA5236 07DBF97A 8F53D878 85C1EFD0 33F7B89C` (a buddy's OTR fingerprint in Pidgin)
 
-**Fingerprints must be checked through a secure channel** and the best is to be physically near the other person. Once the fingerprints have been checked, the channel can be considered secure and more fingerprint checking can be made through it. A secure OTR channel can for example be used to exchange PGP fingerprints.
+**Fingerprints must be checked through a secure channel** and the best is to physically and directly retrieve it from the other person. Once the fingerprints have been checked, the channel can be considered secure and more fingerprint checking can be made through it. A secure OTR channel can for example be used to exchange PGP fingerprints.
 
 ### In web browsers
 Do not try to look for a fingerprint if a website uses HTTP instead of HTTPS: the website provides neither encryption or authentication and hence does not have a fingerprint.
