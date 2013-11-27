@@ -20,4 +20,9 @@ if ! which pandoc >/dev/null 2>&1; then
   exit 1
 fi
 
-. $DOCPATH | pandoc -o "$DOCNAME.pdf" -
+while read incfile; do
+  if [ -n "$incfile" ]; then
+    cat "$CONTENTDIR/$incfile"
+  fi
+done < $DOCPATH | pandoc -o "$DOCNAME.pdf" -
+
