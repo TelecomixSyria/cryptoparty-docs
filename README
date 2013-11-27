@@ -4,6 +4,10 @@ events such as cryptoparties. For instance:
   some core functionalities (e.g. fingerprint checking);
 - slides meant at explaining things in a simple way for beginners.
 
+We shall use Markdown for both documents and slides, since pandoc
+can produce both. As much as possible, pictures should also use a git-
+friendly format such as SVG.
+
 Later on, this repo will have a structure that will ease translation
 of the content into as many languages as possible.
 
