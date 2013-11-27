@@ -10,7 +10,7 @@ CONTENTDIR=../content-parts/$LANGUAGE
 DOCDIR=.
 DOCPATH="$DOCDIR/$DOCNAME"
 
-if [ ! -r "$DOCPATH" ]; then
+if [ ! -r "$DOCPATH" -o ! -f "$DOCPATH" ]; then
   echo "Error: cannot read $DOCPATH, did you specify a correct document?"
   exit 1
 fi
