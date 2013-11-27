@@ -1,5 +1,6 @@
 This repository is aimed at containing documents that can help in
 events such as cryptoparties. For instance:
+
 - memos with where to download appropriate software and how to use
   some core functionalities (e.g. fingerprint checking);
 - slides meant at explaining things in a simple way for beginners.
@@ -8,8 +9,24 @@ We shall use Markdown for both documents and slides, since pandoc
 can produce both. As much as possible, pictures should also use a git-
 friendly format such as SVG.
 
-Later on, this repo will have a structure that will ease translation
-of the content into as many languages as possible.
+The repo tries to have a structure that eases translation of the
+content into any number of languages. It is probably a very non-
+optimal structure, but here is how it is organized:
+
+- the content-parts/ directory contains directories of language code
+  which themselves contain actual pieces of documents content.
+- the doc-build/ directory contains a script that takes a document
+  name and a language as argument (defaults to 'en', English), and
+  files describing a document. Such a file is simply a list of files
+  contained in content-parts/$LANGUAGE/. The script concatenates the
+  files in the order specified and processes the whole of it through
+  pandoc, to create a PDF file.
+
+Hopefully, the splitting in small pieces of content should help for:
+
+- producing translations
+- making modular documents by selecting particular pieces from the
+  content.
 
 It is deliberate that some documents show URLs in a non-link format,
 because we want them to be displayed when printed from a PDF.
