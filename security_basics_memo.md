@@ -16,6 +16,8 @@ Off-the-Record (OTR) provides end-to-end encryption and authentication for one-t
 - **GNU/Linux**: `pidgin` and `pidgin-otr` from the package manager
 - **Mac OS**: Adium (already included)
 
+**Note:** do not forget to activate the OTR plugin from Pidgin's plugin menu.
+
 ### Asynchronous messaging (emails)
 Pretty Good Privacy (PGP) is a protocol that provides end-to-end encryption and authentication for one-to-one and one-to-many asynchronous messaging.
 
