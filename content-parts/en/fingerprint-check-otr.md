@@ -13,6 +13,15 @@ As for PGP, do not try to look for an OTR fingerprint for a buddy who does not u
         3. Click on "Configure plugin"
         4. Go to the "Known fingerprints" tab
         5. All the fingerprints ever received by Pidgin during OTR chats are shown in the list
-- **Adium**: TODO
+- **Adium**:
+    * if your buddy is online:
+        1. Open a chat windows with your buddy
+        2. Click the "Encryption" button
+        3. Choose "Verify"
+        4. You can verify the fingerprint
+    * if your buddy is offline:
+        1. From the main window, click on the "Preferences" menu
+        2. Select "Advanced" and "Encryption"
+        3. Select a contact and use the "Show fingerprint" button
 
 
