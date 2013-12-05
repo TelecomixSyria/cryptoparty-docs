@@ -1,3 +1,7 @@
+Quickstart example to build the memo_basics.pdf file (requires pandoc and latex):
+cd doc-build/
+./build.sh memo_basics
+
 This repository is aimed at containing documents that can help in
 events such as cryptoparties. For instance:
 
