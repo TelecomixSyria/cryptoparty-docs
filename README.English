@@ -1,4 +1,5 @@
-Quickstart example to build the memo_basics.pdf file (requires pandoc and latex):
+Quickstart example to build the memo_basics.pdf file (requires pandoc
+and latex):
 cd doc-build/
 ./build.sh memo_basics
 
