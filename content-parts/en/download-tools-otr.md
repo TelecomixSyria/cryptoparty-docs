@@ -2,7 +2,7 @@ Off-the-Record (OTR) provides end-to-end encryption and authentication for one-t
 
 - **Windows**:
     1. Pidgin: `https://pidgin.im`
-    2. Pidgin's OTR plugin: `https://otr.cypherpunks.ca`
+    2. Pidgin's OTR plugin: `https://otr.cypherpunks.ca` (select the big _Win32 installer_ link)
 - **GNU/Linux**: `pidgin` and `pidgin-otr` from the package manager
 - **Mac OS**: Adium (already included)
 
